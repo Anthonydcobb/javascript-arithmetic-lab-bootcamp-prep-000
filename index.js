@@ -15,5 +15,9 @@ var makeInt = (n) => {
 };
 
 var preserveDecimal = (n) => {
-  
-}
+ if (parseFloat(n) == NaN) {
+   return "NaN"
+ } else {
+   return parseFloat(n)
+ }
+};
