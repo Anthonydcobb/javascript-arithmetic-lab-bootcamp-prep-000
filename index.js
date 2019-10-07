@@ -21,3 +21,6 @@ var preserveDecimal = (n) => {
    return parseFloat(n)
  }
 };
+
+
+console.log(inc(1));
