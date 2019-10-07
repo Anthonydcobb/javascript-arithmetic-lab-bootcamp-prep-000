@@ -3,7 +3,7 @@ var subtract = (a, b) => {return a - b};
 var multiply = (a, b) => {return a * b};
 var divide = (a, b) => {return a / b};
 
-var inc = (n) => {return n++};
+var inc = (n) => {return n + 1};
 var dec = (n) => {return n--};
 
 var makeInt = (n) => {
