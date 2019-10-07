@@ -7,4 +7,13 @@ var inc = (n) => {return n++};
 var dec = (n) => {return n--};
 
 var makeInt = (n) => {
-  };
+  if (parseInt(n) == NaN) {
+    return "NaN"
+  } else {
+    return parseInt(n, 10)
+  }
+};
+
+var preserveDecimal = (n) => {
+  
+}
